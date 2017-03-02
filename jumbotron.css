@@ -1,37 +1,31 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
   background: #CEECF5;
 }
 
 header {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: auto;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-  -o-background-size: contain;
-  background-image: url('26-world-robot-1.w512.h600.2x.gif');
+  -webkit-background-size: 100% 83%;
+  -moz-background-size: 100% 83%;
+  background-size: 100% 83%;
+  -o-background-size: 100% 83%;
+  background-image: url('computer_keyboard_mouse_laptop_mac_apple_66734_1920x1080.jpg');
   color: black;
+  background-size:100% 100%;
   background-repeat: no-repeat;
-  margin: 20px 20px 20px 20px;
+
 }
 
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 150px 35px 190px;
-  width: 100%;
-  margin-left: 20%;
+  padding: 130px 60px 200px ;
 }
 header .header-content .header-content-inner h1 {
   font-weight: 1000;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0px 0px 0px 40px;
   font-size: 70px;
 }
 p {
@@ -201,6 +195,11 @@ section h2.section-headingYELLOW{
     background-color: rgba(242,245,169 ,0.5);
     padding: 30px;
     margin: 0; 
+}
+
+section h4.service-heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 section h5.service-heading {
   font-size: 20px;
